@@ -92,7 +92,7 @@ Develop an Android app to decode and display information using an API that retri
 - `StudentAPI.java`  
 - `StudentAdapter.java`  
 - `activity_student_api_demo.xml`  
-- `item_student.xml`  
+- `row_student_item.xml`  
 
 ---
 
