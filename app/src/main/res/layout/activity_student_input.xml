@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center_horizontal"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Entry App"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1976D2"
+        android:layout_marginBottom="64dp"/>
+
+    <Button
+        android:id="@+id/btnOpenDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:textSize="18sp"
+        android:paddingHorizontal="48dp"
+        android:paddingVertical="16dp"
+        android:backgroundTint="#1976D2"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No data yet"
+        android:textSize="18sp"
+        android:padding="24dp"
+        android:layout_marginTop="48dp"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:visibility="gone"
+        android:layout_marginHorizontal="8dp"/>
+
+</LinearLayout>
